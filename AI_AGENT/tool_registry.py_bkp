@@ -1,0 +1,19 @@
+from linux_tools import get_disk_usage
+
+
+TOOLS = {
+    "get_disk_usage": get_disk_usage
+}
+
+
+TOOL_DEFINITIONS = [
+    {
+        "type": "function",
+        "name": "get_disk_usage",
+        "description": "Gets the current disk usage of the Linux system.",
+        "parameters": {
+            "type": "object",
+            "properties": {}
+        }
+    }
+]

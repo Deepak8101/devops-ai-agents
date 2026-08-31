@@ -1,0 +1,6 @@
+from linux_agent import analyze_linux
+
+
+answer = analyze_linux()
+
+print(answer)
